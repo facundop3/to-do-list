@@ -11,6 +11,9 @@
   max-width: 305px;
   font-family: Arial;
   font-weight: bold;
+  will-change: transform;
+  border: none;
+  background: transparent;
 }
 .Add-Task-input:focus{
   transform: scale(1.1);

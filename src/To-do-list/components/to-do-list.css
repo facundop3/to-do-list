@@ -1,11 +1,13 @@
 .ToDoList{
   height: 100%;
-  background: red;
-  max-width: 500px;
+  /* min-height: 100vh; */
   width: 100%;
   border-radius: 9px;
-  color: white;
-  padding: 2em;
+}
+.ToDoList-header{
+  height: 10%;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 .App-logo {
@@ -14,6 +16,11 @@
 }
 hr{
   width: 80%;
+}
+.ToDoList-box{
+  display: flex;
+  justify-content: center;
+  align-items: top;
 }
 
 @keyframes App-logo-spin {

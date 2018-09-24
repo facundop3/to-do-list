@@ -5,7 +5,7 @@ const AddTask = props => (
     onSubmit={props.handleSubmit}
     className="AddTask">
     <input
-      placeholder="Here gords your new task"
+      placeholder="Add task..."
       className="Add-Task-input"
       ref={props.setInputRef}
       />

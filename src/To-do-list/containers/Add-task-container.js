@@ -9,17 +9,20 @@ class AddTaskContainer extends Component {
   }
   handleSubmit = event => {
     event.preventDefault()
-    console.log(this.newTaskInput.value)
     this.setState({
       taskList: this.state.taskList.concat([this.newTaskInput.value])
     })
-
-      localStorage.setItem('taskList', JSON.stringify(this.state.taskList))
-  
+    this.setLocalStorage(this.state.taskList)
     this.newTaskInput.value = ""
   }
   setInputRef = element => {
     this.newTaskInput = element
+  }
+  setLocalStorage = () => {
+    localStorage.setItem('taskList', JSON.stringify(this.state.taskList))
+  }
+  getLocalStorage = () => {
+    localStorage.getItem('taskList')
   }
   render(){
     return (

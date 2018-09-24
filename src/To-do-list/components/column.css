@@ -1,0 +1,10 @@
+.Column{
+  background: #e9e9eb;
+  width: 20%;
+  display: inline-block;
+  height: 80%;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+
+}

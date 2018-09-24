@@ -1,16 +1,16 @@
 import React, {Component} from 'react'
 import Task from '../components/Task'
 class TaskContainer extends Component {
-  state ={
-
-  }
 
   handleDoneClick = event => {
-    event.target.parentElement.style.textDecoration ="line-through"
+    console.log(event.target)
+    console.log("Hello")
   }
   render (){
     return (
-      <Task handleDoneClick={this.handleDoneClick}/>
+      <Task 
+        handleDoneClick={this.handleDoneClick}
+      />
     )
   }
 }
