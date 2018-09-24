@@ -1,0 +1,13 @@
+.Button {
+  background: green;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Arial;
+  transition: .8s;
+  font-size: 12px;
+}
+
+.Button:active{
+  transform: scale(.9);
+}

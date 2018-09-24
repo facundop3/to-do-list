@@ -1,0 +1,17 @@
+.AddTask{
+  
+}
+
+.Add-Task-input{
+  border-radius: 5px;
+  outline: none;
+  height: 30px;
+  transition: .8s;
+  width:60%;
+  max-width: 305px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.Add-Task-input:focus{
+  transform: scale(1.1);
+}

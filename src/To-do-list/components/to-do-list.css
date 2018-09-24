@@ -1,0 +1,22 @@
+.ToDoList{
+  height: 100%;
+  background: red;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 9px;
+  color: white;
+  padding: 2em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 2.5s ease;
+  height: 80px;
+}
+hr{
+  width: 80%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

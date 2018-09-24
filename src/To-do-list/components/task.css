@@ -1,0 +1,14 @@
+.Task-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Task{
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
